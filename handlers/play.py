@@ -98,7 +98,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **𝗪𝗔𝗜𝗧 𝗠𝗬 𝗟𝗢𝗩𝗘𝗟𝗬 𝗕𝗥𝗢𝗧𝗛𝗘𝗥 𝗜 𝗔𝗠 𝗦𝗘𝗔𝗥𝗖𝗛𝗜𝗡𝗚 𝗙𝗢𝗥 𝗦𝗢𝗡𝗚..**")
+    lel = await message.reply("🔎 ** Hey taalu chinna song play madtini..**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -106,7 +106,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "𝗕𝗥𝗢𝗧𝗛𝗘𝗧𝗦 𝗠𝗨𝗦𝗜𝗖"
+        user.first_name = "AGORA-MUSIC"
     usar = user
     wew = usar.id
     try:
@@ -118,24 +118,24 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "😒𝗣𝗥𝗢𝗠𝗢𝗧𝗘 𝗠𝗘 𝗔𝗦 𝗔𝗗𝗠𝗜𝗡 𝗕𝗥𝗢𝗧𝗛𝗘𝗥😞")
+                        "😒Song play agbek andre Admin madbeku chinna😞")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** 𝗜 𝗔𝗠 𝗛𝗘𝗥𝗘 𝗕𝗥𝗢𝗧𝗛𝗘𝗥 **")
+                        message.chat.id, "** baby illi nodu. naan ille idini**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b> 𝙁𝙡𝙤𝙤𝙙 𝙡𝙖𝙜𝙖 𝙝𝙖𝙞 /𝙀𝙧𝙧𝙤𝙧💋𝙗𝙝𝙞 𝙝𝙤𝙨𝙠𝙩𝙖 𝙮𝙖 𝙛𝙞𝙧 𝙖𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩💔𝙗𝙖𝙣 𝙝𝙤𝙜𝙖 𝙬𝙖𝙧𝙣𝙖 𝙤𝙬𝙣𝙚𝙧 𝙨𝙚 𝙘𝙤𝙣𝙩𝙖𝙘𝙩 𝙠𝙖𝙧𝙚💞 :- ✨ [𝙎𝟭𝟮𝙆](https://t.me/S12K_GAMER_YT_OP) ❤️🥀 :) ")
+                        f"<b> Ayyo chinna nan music assistant nin group alli illa nange admin kottu adna add madu ilaa andre nam owner avrge kelu💞 :- ✨ [Owner](https://t.me/mr_agora) ❤️🥀 :) ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>Hey {user.first_name}, 𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩💔 𝙘𝙝𝙖𝙩 𝙢𝙚𝙞𝙣 𝙣𝙞 𝙝𝙖𝙞 𝘼𝙙𝙢𝙞𝙣💘 𝙠𝙤 𝙗𝙤𝙡𝙤 /𝙥𝙡𝙖𝙮 𝙡𝙞𝙠𝙝𝙚 𝙮𝙖 𝙤𝙬𝙣𝙚𝙧 𝙨𝙚 𝙘𝙤𝙣𝙩𝙖𝙘𝙩 𝙠𝙖𝙧𝙚💞:- [𝙎𝟭𝟮𝙆](https://t.me/S12K_GAMER_YT_OP) ❤️🥀 </i>")
+            f"<i>Hey {user.first_name}, Assistant na add mado chinna modalu :- [AGORA](https://t.me/agora_was_bot) ❤️🥀 </i>")
         return
     
     audio = (
@@ -148,7 +148,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**❰ ° 𝐒𝐨𝐧𝐠 🎸 ° ❱ 𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞'𝐒 𝐀𝐫𝐞𝐧'𝐭 𝐀𝐥𝐥𝐨𝐰𝐞𝐝 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️🥀**"
+                f"**❰ ° chinna song 🎸 ° ❱ time doddad ide {DURATION_LIMIT} allow illa chinna ▶ ❤️🥀**"
             )
 
         file_name = get_file_name(audio)
@@ -162,21 +162,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦",
-                            url=f"https://t.me/Brothers_territory")
+                            text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦🤙",
+                            url=f"https://t.me/agora_talks")
                ],
                [
                     InlineKeyboardButton(
-                            text="𝗢𝗪𝗡𝗘𝗥",
-                            url=f"https://t.me/S12K_GAMER_YT_OP"),
+                            text="𝗢𝗪𝗡𝗘𝗥🕉️",
+                            url=f"https://t.me/mr_agora"),
                             
                     InlineKeyboardButton(
-                            text="𝗙𝗜𝗚𝗛𝗧𝗜𝗡𝗚 𝗖𝗟𝗨𝗕",
-                            url=f"https://t.me/dangerousfighters")
+                            text="𝗢𝗪𝗡𝗘𝗥💜",
+                            url=f"https://t.me/mrs_agora")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧",
+                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧💪",
                             url=f"https://t.me/Brothers_territory")
                    
                 ]
@@ -215,21 +215,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦",
-                            url=f"https://t.me/agoraempire")
+                            text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦🤙",
+                            url=f"https://t.me/agora_talks")
                ],
                [
                     InlineKeyboardButton(
-                            text="𝗢𝗪𝗡𝗘𝗥",
-                            url=f"https://t.me/S12K_GAMER_YT_OP"),
+                            text="𝗢𝗪𝗡𝗘𝗥🕉️",
+                            url=f"https://t.me/mr_agora"),
                             
                     InlineKeyboardButton(
-                            text="𝗙𝗜𝗚𝗛𝗧𝗘𝗥𝗦 𝗖𝗟𝗨𝗕",
-                            url=f"https://t.me/dangerousfighters")
+                            text="𝗢𝗪𝗡𝗘𝗥💜",
+                            url=f"https://t.me/mrs_agora")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧",
+                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧💪",
                             url=f"https://t.me/brothers_territory")
                    
                 ]
@@ -245,21 +245,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦",
-                            url=f"https://t.me/agoraempire")
+                            text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦🤙",
+                            url=f"https://t.me/agorA_TALKS")
                ],
                [
                     InlineKeyboardButton(
-                            text="𝗢𝗪𝗡𝗘𝗥",
-                            url=f"https://t.me/S12K_GAMER_YT_OP"),
+                            text="𝗢𝗪𝗡𝗘𝗥🕉️",
+                            url=f"https://t.me/MR_AGORA"),
                             
                     InlineKeyboardButton(
-                            text="𝗙𝗜𝗚𝗛𝗧𝗘𝗥𝗦 𝗖𝗟𝗨𝗕",
-                            url=f"https://t.me/dangerousfighters")
+                            text="𝗢𝗪𝗡𝗘𝗥💜",
+                            url=f"https://t.me/MRs_agora")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧",
+                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧💪",
                             url=f"https://t.me/brothers_territory")
                    
                 ]
@@ -277,7 +277,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "😜𝘼𝙖𝙥 𝙠𝙤𝙣𝙨𝙖 𝙨𝙤𝙣𝙜💔𝙗𝙖𝙟𝙖𝙣𝙖 𝙘𝙝𝙖𝙝𝙩𝙚 𝙝𝙤😍😍**"
+                "😜Yav song play madli chinna😍😍**"
             )
         await lel.edit("🔎")
         query = message.text.split(None, 1)[1]
@@ -304,7 +304,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🌸°💔 𝘼𝙥𝙣𝙚 𝙜𝙖𝙡𝙖𝙩 𝙨𝙤𝙣𝙜💞𝙣𝙖𝙢𝙚 𝙡𝙞𝙠𝙝𝙖 𝙝𝙖𝙞 𝙘𝙝𝙚𝙘𝙠 𝙠𝙖𝙧𝙣𝙖💔**"
+                "**🌸°💔 chinna song check madi inond sari play maadu 💔**"
             )
             print(str(e))
             return
@@ -313,21 +313,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦",
-                            url=f"https://t.me/BROTHERS_TERRITORY")
+                            text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦🤙",
+                            url=f"https://t.me/agora_talks")
                ],
                [
                     InlineKeyboardButton(
-                            text="𝗢𝗪𝗡𝗘𝗥",
-                            url=f"https://t.me/S12K_GAMER_YT_OP"),
+                            text="𝗢𝗪𝗡𝗘𝗥🕉️",
+                            url=f"https://t.me/mrs_agora"),
                             
                     InlineKeyboardButton(
-                            text="𝗙𝗜𝗚𝗛𝗧𝗘𝗥𝗦 𝗖𝗟𝗨𝗕",
-                            url=f"https://t.me/DANGEROUSFIGHTERS")
+                            text="𝗢𝗪𝗡𝗘𝗥💜",
+                            url=f"https://t.me/mrs_agora")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧",
+                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧💪",
                             url=f"https://t.me/BROTHERS_TERRITORY")
                    
                 ]
@@ -350,7 +350,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="****💪𝙎𝟭𝟮𝙆 𝘿𝘼𝙉𝙂𝙀𝙍𝙊𝙐𝙎 𝙁𝙄𝙂𝙃𝙏𝙀𝙍🤙 𝙎𝙤𝙣𝙜'𝙨 𝙥𝙤𝙨𝙞𝙩𝙞𝙤𝙣 💫🤟** {}**".format(position),
+            caption="****💪Agora Music Bot started💫🤟** {}**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -367,7 +367,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💪𝙎𝟭𝟮𝙆 𝘿𝘼𝙉𝙂𝙀𝙍𝙊𝙐𝙎 𝙁𝙄𝙂𝙃𝙏𝙀𝙍🤙 𝙎𝙤𝙣𝙜 𝙗𝙖𝙟𝙖𝙧𝙞 𝙝𝙪 𝙚𝙣𝙟𝙤𝙮 𝙠𝙖𝙧𝙚`{}`...**".format(
+            caption="**💪Agora Music bot is Started`{}`...**".format(
         message.chat.title
         ), )
 
