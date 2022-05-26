@@ -153,7 +153,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/5038581574350d95f3a7f.jpg"
+        thumb_name = "https://te.legra.ph/file/710838c4451e8f5f08c91.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -167,12 +167,12 @@ async def play(_, message: Message):
                ],
                [
                     InlineKeyboardButton(
-                            text="𝗢𝗪𝗡𝗘𝗥🕉️",
+                            text="🕉️𝗖𝗥𝗘𝗔𝗧𝗢𝗥🕉️",
                             url=f"https://t.me/mr_agora"),
                             
                     InlineKeyboardButton(
-                            text="𝗢𝗪𝗡𝗘𝗥💜",
-                            url=f"https://t.me/mrs_agora")
+                            text="𝗝𝗢𝗜𝗡💜",
+                            url=f"https://t.me/agoraempire")
                ],
                [
                         InlineKeyboardButton(
@@ -220,12 +220,12 @@ async def play(_, message: Message):
                ],
                [
                     InlineKeyboardButton(
-                            text="𝗢𝗪𝗡𝗘𝗥🕉️",
+                            text="🕉️𝗖𝗥𝗘𝗔𝗧𝗢𝗥🕉️",
                             url=f"https://t.me/mr_agora"),
                             
                     InlineKeyboardButton(
-                            text="𝗢𝗪𝗡𝗘𝗥💜",
-                            url=f"https://t.me/mrs_agora")
+                            text="𝗝𝗢𝗜𝗡💜",
+                            url=f"https://t.me/agoraempire")
                ],
                [
                         InlineKeyboardButton(
@@ -238,7 +238,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/5038581574350d95f3a7f.jpg"
+            thumb_name = "https://te.legra.ph/file/710838c4451e8f5f08c91.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -250,12 +250,12 @@ async def play(_, message: Message):
                ],
                [
                     InlineKeyboardButton(
-                            text="𝗢𝗪𝗡𝗘𝗥🕉️",
+                            text="🕉️𝗖𝗥𝗘𝗔𝗧𝗢𝗥🕉️",
                             url=f"https://t.me/MR_AGORA"),
                             
                     InlineKeyboardButton(
-                            text="𝗢𝗪𝗡𝗘𝗥💜",
-                            url=f"https://t.me/MRs_agora")
+                            text="𝗝𝗢𝗜𝗡💜",
+                            url=f"https://t.me/agoraEMPIRE")
                ],
                [
                         InlineKeyboardButton(
@@ -318,12 +318,12 @@ async def play(_, message: Message):
                ],
                [
                     InlineKeyboardButton(
-                            text="𝗢𝗪𝗡𝗘𝗥🕉️",
+                            text="🕉️𝗖𝗥𝗘𝗔𝗧𝗢𝗥🕉️",
                             url=f"https://t.me/mrs_agora"),
                             
                     InlineKeyboardButton(
-                            text="𝗢𝗪𝗡𝗘𝗥💜",
-                            url=f"https://t.me/mrs_agora")
+                            text="𝗝𝗢𝗜𝗡💜",
+                            url=f"https://t.me/agoraempire")
                ],
                [
                         InlineKeyboardButton(
