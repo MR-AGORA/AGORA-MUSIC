@@ -10,19 +10,19 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/fdf376e2c5c7058e31f35.jpg",
-        caption=f"""**𝗧𝗛𝗜𝗦 𝗜𝗦 𝗕𝗘𝗦𝗧 𝗕𝗢𝗧 𝗗𝗔𝗡𝗚𝗘𝗥𝗢𝗨𝗦 𝗙𝗜𝗚𝗛𝗧𝗘𝗥𝗦 𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗦𝟭𝟮𝗞 𝗚𝗔𝗠𝗘𝗥 𝗬𝗧 𝗢𝗣](https://t.me/S12K_GAMER_YT_OP)
+        photo=f"https://te.legra.ph/file/5038581574350d95f3a7f.jpg",
+        caption=f"""**Karnataka da athi uttama Music bot tayar madiddu [Mr and Mrs Agora](https://t.me/mr_agora)
 
-𝗖𝗥𝗘𝗔𝗧𝗢𝗥 :- [𝗦𝟭𝟮𝗞 ](https://t.me/DANGEROUSFIGHTERS)
-𝗧𝗘𝗥𝗥𝗜𝗧𝗢𝗥𝗬 :- [𝗖𝗟𝗨𝗕](https://t.me/BROTHERS_TERRITORY)
-𝗨𝗣𝗗𝗔𝗧𝗘𝗦 :- [𝗔𝗚𝗢𝗥𝗔](https://t.me/AGORAEMPIRE)
+Malikaru :- [Mr and Mrs Agora](https://t.me/Mr_Agora)
+Malikara Mane:- [Hone](https://t.me/BROTHERS_TERRITORY)
+Malikara Bagge :- [Agora](https://t.me/AGORA_talks)
 
- 𝗜𝗙 𝗬𝗢𝗨 𝗪𝗢𝗡𝗧 𝗨𝗡𝗗𝗘𝗥𝗦𝗧𝗔𝗡𝗗 𝗔𝗡𝗬𝗧𝗛𝗜𝗡𝗚 𝗔𝗦𝗞 𝗧𝗢 [𝗕𝗜𝗚 𝗕𝗥𝗢𝗧𝗛𝗘𝗥](https://t.me/mr_agora)**""",
+ Artha agtilwa Tele kedaskobeda Nam bot owner chinnadanta manasu yelrigu help madtare avrna kelu sari na chinna[Nam Owner Sir](https://t.me/mr_agora)**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝗕𝗥𝗢𝗧𝗛𝗘𝗥𝗦 𝗖𝗟𝗨𝗕", url=f"https://t.me/BROTHERS_TERRITORY")
+                        "ಕರ್ನಾಟಕ ಹುಳಿಗೊಳ್ ಅಡ್ಡ", url=f"https://t.me/BROTHERS_TERRITORY")
                 ]
                 
            ]
@@ -33,7 +33,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/fdf376e2c5c7058e31f35.jpg",
+        photo=f"https://te.legra.ph/file/5038581574350d95f3a7f.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
