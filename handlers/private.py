@@ -17,7 +17,7 @@ async def start_(client: Client, message: Message):
 ಮಾಲೀಕರ ಅಡ್ಡ:- [ಅಡ್ಡ](https://t.me/BROTHERS_TERRITORY)
 ಮಾಲೀಕರ ಸಾಮ್ರಾಜ್ಯ :- [ಅಘೋರ](https://t.me/AGORA_talks)
 
- Art kedaskobeda Nam bot owner chinnadanta manasu yelrigu help madtare avrna kelu sari na chinna[Nam Owner Sir](https://t.me/mr_agora)**""",
+ ಯಾಕೆ ಏನು ಅರ್ಥ ಅಗ್ವಲ್ತ್ ಏನ್? ತೇಲಿ ಕೆದಸ್ಕೊಬ್ಯಾಡ ನಮ್ಮ ಓನರ್ ಗ ಮೆಸೇಜ್ ಮಾಡಿ ಕೇಳ್ ಹೇಳ್ತಾರೆ ಅವ್ರ ನಿಂಗ್ ಅವ್ರ ಹೆಸರ [ಶ್ರೀ ಅಘೋರ](https://t.me/mr_agora) ಅಂತ ಮೆಸೇಜ್ ಮಾಡಿ ಕೇಳ್**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -39,7 +39,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𝙍𝙚𝙥𝙤", url=f"https://t.me/agoraempire")
+                        "ರೆಪೋ", url=f"https://t.me/agoraempire")
                 ]
             ]
         ),
