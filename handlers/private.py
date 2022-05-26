@@ -10,7 +10,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/5038581574350d95f3a7f.jpg",
+        photo=f"https://te.legra.ph/file/710838c4451e8f5f08c91.jpg",
         caption=f"""**ಕರ್ನಾಟಕ ದ ಅತೀ ಉತ್ತಮ ಮತ್ತ ಗಿಚ್ಚಿ ಗಿಲಿ ಗಿಲಿ ಮುಸಿಕ್ ರೋಬೋಟ್ ನಮ್ಮ [ಶ್ರೀ ಮತ್ತು ಶ್ರಿಮತಿ ಅಘೋರ](https://t.me/mr_agora) ಅವ್ರು ಪ್ರೀತಿಯ ಸಂಕೇತವಾಗಿ ರಚಿಸಿದ್ದಾರೆ
 
 ಮಾಲೀಕರು :- [ಶ್ರೀ ಮತ್ತು ಶ್ರೀಮತಿ ಅಘೋರ](https://t.me/Mr_Agora)
@@ -33,7 +33,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/5038581574350d95f3a7f.jpg",
+        photo=f"https://te.legra.ph/file/710838c4451e8f5f08c91.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
