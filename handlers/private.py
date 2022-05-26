@@ -11,13 +11,13 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/5038581574350d95f3a7f.jpg",
-        caption=f"""**Karnataka da athi uttama Music bot tayar madiddu [Mr and Mrs Agora](https://t.me/mr_agora)
+        caption=f"""**ಕರ್ನಾಟಕ ದ ಅತೀ ಉತ್ತಮ ಮತ್ತ ಗಿಚ್ಚಿ ಗಿಲಿ ಗಿಲಿ ಮುಸಿಕ್ ರೋಬೋಟ್ ನಮ್ಮ [ಶ್ರೀ ಮತ್ತು ಶ್ರಿಮತಿ ಅಘೋರ](https://t.me/mr_agora) ಅವ್ರು ಪ್ರೀತಿಯ ಸಂಕೇತವಾಗಿ ರಚಿಸಿದ್ದಾರೆ
 
 ಮಾಲೀಕರು :- [ಶ್ರೀ ಮತ್ತು ಶ್ರೀಮತಿ ಅಘೋರ](https://t.me/Mr_Agora)
 ಮಾಲೀಕರ ಅಡ್ಡ:- [ಅಡ್ಡ](https://t.me/BROTHERS_TERRITORY)
 ಮಾಲೀಕರ ಸಾಮ್ರಾಜ್ಯ :- [ಅಘೋರ](https://t.me/AGORA_talks)
 
- Artha agtilwa Tele kedaskobeda Nam bot owner chinnadanta manasu yelrigu help madtare avrna kelu sari na chinna[Nam Owner Sir](https://t.me/mr_agora)**""",
+ Art kedaskobeda Nam bot owner chinnadanta manasu yelrigu help madtare avrna kelu sari na chinna[Nam Owner Sir](https://t.me/mr_agora)**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
