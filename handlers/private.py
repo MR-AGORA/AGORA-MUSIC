@@ -13,9 +13,9 @@ async def start_(client: Client, message: Message):
         photo=f"https://te.legra.ph/file/5038581574350d95f3a7f.jpg",
         caption=f"""**Karnataka da athi uttama Music bot tayar madiddu [Mr and Mrs Agora](https://t.me/mr_agora)
 
-Malikaru :- [Mr and Mrs Agora](https://t.me/Mr_Agora)
-Malikara Mane:- [Hone](https://t.me/BROTHERS_TERRITORY)
-Malikara Bagge :- [Agora](https://t.me/AGORA_talks)
+ಮಾಲೀಕರು :- [ಶ್ರೀ ಮತ್ತು ಶ್ರೀಮತಿ ಅಘೋರ](https://t.me/Mr_Agora)
+ಮಾಲೀಕರ ಅಡ್ಡ:- [ಅಡ್ಡ](https://t.me/BROTHERS_TERRITORY)
+ಮಾಲೀಕರ ಸಾಮ್ರಾಜ್ಯ :- [ಅಘೋರ](https://t.me/AGORA_talks)
 
  Artha agtilwa Tele kedaskobeda Nam bot owner chinnadanta manasu yelrigu help madtare avrna kelu sari na chinna[Nam Owner Sir](https://t.me/mr_agora)**""",
     reply_markup=InlineKeyboardMarkup(
