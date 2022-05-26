@@ -22,7 +22,7 @@ def song(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply("Agora Server 💫 inda song 🎧 hudukuta idini 🌎...")
+    m = message.reply("ಅಘೋರ ಸರ್ವರ್ 💫 ಇಂದ ಹಾಡು 🎧 ಹುಡ್ಕಾತೆನ್ ತಾಡ್ಕೊ 🌎...")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -41,11 +41,11 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "Song 🥀 illa  😔 Ansatte."
+            "ಹಾಡು 🥀 ಇಲ್ಲ  😔 ಅನಾಸ್ಥೆತ."
         )
         print(str(e))
         return
-    m.edit("Agora server ✨ inda song 🎸 download 🥀 Agtaide 🌎...")
+    m.edit("ಅಘೋರ ಸರ್ವರ್ ✨ ಇಂದ ಹಾಡು 🎸 ಡೌನ್ಲೋಡ್ 🥀 ಅಗತೈತ್🌎...")
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
