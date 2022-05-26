@@ -98,7 +98,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 ** Hey taalu chinna song play madtini..**")
+    lel = await message.reply("🔎 ** ಹೇ ತಾಳು ಚಿನ್ನಾ song ಪ್ಲೇ ಮಾಡ್ತೀನಿ..**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -118,24 +118,24 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "😒Song play agbek andre Admin madbeku chinna😞")
+                        "😒ಮೊದ್ಲು ಅಡ್ಮಿನ್ ಕೊಡು ಚಿನ್ನಾ😞")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** baby illi nodu. naan ille idini**")
+                        message.chat.id, "**ಒಯ್ ಚಿನ್ನಾ ನಾನ್ ಇಲ್ ಇದೀನಿ ನೋಡು**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b> Ayyo chinna nan music assistant nin group alli illa nange admin kottu adna add madu ilaa andre nam owner avrge kelu💞 :- ✨ [Owner](https://t.me/mr_agora) ❤️🥀 :) ")
+                        f"<b> ಅಯ್ಯೋ ಚಿನ್ನಾ ನನ್ ಮುಸಿಕ್ ಅಸಿಸ್ಟಂಟ್ ನಿನ್ ಗ್ರೂಪ್ ಅಲ್ಲಿ ಇಲ್ಲ ಅವಂಗೆ add ಮಾಡಿ ಅಡ್ಮಿನ್ ಕೊಡು , ಮತ್ತೆ ನನ್ ಓನರ್ ಗೆ ಕೇಳು 💞 :- ✨ [ಓನರ್](https://t.me/mr_agora) ❤️🥀 :) ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>Hey {user.first_name}, Assistant na add mado chinna modalu :- [AGORA](https://t.me/agora_was_bot) ❤️🥀 </i>")
+            f"<i>Hey {user.first_name}, ಅಸಿಸ್ಟಂಟ್ ನಾ add ಮಾಡು ಚಿನ್ನಾ :- [ಅಸಿಸ್ಟಂಟ್](https://t.me/agora_was_bot) ❤️🥀 </i>")
         return
     
     audio = (
@@ -148,7 +148,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**❰ ° chinna song 🎸 ° ❱ time doddad ide {DURATION_LIMIT} allow illa chinna ▶ ❤️🥀**"
+                f"**❰ ° ಚಿನ್ನಾ ಸಾಂಗ್ ದು 🎸 ° ❱ ಟೈಂ ಜಾಸ್ತಿ ಇದೆ {DURATION_LIMIT} ಅಲೋ ಅಗ್ತಿಲ್ಲಾ ಚಿನ್ನಾ ▶ ❤️🥀**"
             )
 
         file_name = get_file_name(audio)
@@ -162,21 +162,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦🤙",
+                            text="ಸಾಮ್ರಾಜ್ಯ🤙",
                             url=f"https://t.me/agora_talks")
                ],
                [
                     InlineKeyboardButton(
-                            text="🕉️𝗖𝗥𝗘𝗔𝗧𝗢𝗥🕉️",
+                            text="🕉️ ಮಹಾರಾಜ 🕉️",
                             url=f"https://t.me/mr_agora"),
                             
                     InlineKeyboardButton(
-                            text="𝗝𝗢𝗜𝗡💜",
+                            text="ಸೇನಾಧಿಪತಿ💜",
                             url=f"https://t.me/agoraempire")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧💪",
+                            text="ಯುದಧಭೂಮಿ💪",
                             url=f"https://t.me/Brothers_territory")
                    
                 ]
@@ -215,21 +215,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦🤙",
+                            text="ಮಾಯ ಲೋಕ🤙",
                             url=f"https://t.me/agora_talks")
                ],
                [
                     InlineKeyboardButton(
-                            text="🕉️𝗖𝗥𝗘𝗔𝗧𝗢𝗥🕉️",
+                            text="🕉️ ಶ್ರೀ ಮತ್ತು ಶ್ರಿಮತಿ ಅಘೋರ 🕉️",
                             url=f"https://t.me/mr_agora"),
                             
                     InlineKeyboardButton(
-                            text="𝗝𝗢𝗜𝗡💜",
+                            text="ಸಾಮ್ರಾಜ್ಯ💜",
                             url=f"https://t.me/agoraempire")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧💪",
+                            text="ಅಡ್ಡ💪",
                             url=f"https://t.me/brothers_territory")
                    
                 ]
