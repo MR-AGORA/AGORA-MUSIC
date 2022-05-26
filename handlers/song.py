@@ -59,7 +59,7 @@ def song(client, message):
         message.reply_audio(audio_file, caption=rep, thumb=thumb_name, parse_mode='md', title=title, duration=dur)
         m.delete()
     except Exception as e:
-        m.edit("**Nakkan Group Server Error ide owner ge karsi ❌ Bot Owner 🥀 [Agora](https://t.me/mr_agora) ❤️**")
+        m.edit("**ಅವನೌನ್ ಗ್ರೂಪ್ ಸರ್ವರ್ ದಾಗ ಪ್ರಾಬ್ಲೆಮ್ ಐತ ಓನರ್ g ಕರಿ ಮತ್ ನಮ್ ಬೋಟ್ ಇನ್ವರ್ ಗ invite ಮಾಡ ❌ Bot Owner 🥀 [Agora](https://t.me/mr_agora) ❤️**")
         print(e)
 
     try:
