@@ -162,21 +162,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ಸಾಮ್ರಾಜ್ಯ🤙",
+                            text="ಮಾಯ ಲೋ🤙",
                             url=f"https://t.me/agora_talks")
                ],
                [
                     InlineKeyboardButton(
-                            text="🕉️ ಮಹಾರಾಜ 🕉️",
+                            text="🕉️ ಶ್ರೀ ಮತ್ತು ಶ್ರಿಮತಿ ಅಘೋರ 🕉️",
                             url=f"https://t.me/mr_agora"),
                             
                     InlineKeyboardButton(
-                            text="ಸೇನಾಧಿಪತಿ💜",
+                            text="ಸಾಮ್ರಾಜ್ಯ💜",
                             url=f"https://t.me/agoraempire")
                ],
                [
                         InlineKeyboardButton(
-                            text="ಯುದಧಭೂಮಿ💪",
+                            text="ಅಡ್ಡ💪",
                             url=f"https://t.me/Brothers_territory")
                    
                 ]
@@ -245,21 +245,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦🤙",
+                            text="ಮಾಯಾಲೋಕ🤙",
                             url=f"https://t.me/agorA_TALKS")
                ],
                [
                     InlineKeyboardButton(
-                            text="🕉️𝗖𝗥𝗘𝗔𝗧𝗢𝗥🕉️",
+                            text="🕉️ ಶ್ರೀ ಮತ್ತು ಶ್ರಿಮತಿ ಅಘೋರ 🕉️",
                             url=f"https://t.me/MR_AGORA"),
                             
                     InlineKeyboardButton(
-                            text="𝗝𝗢𝗜𝗡💜",
+                            text="ಸಾಮ್ರಾಜ್ಯ💜",
                             url=f"https://t.me/agoraEMPIRE")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧💪",
+                            text="ಅಡ್ಡ💪",
                             url=f"https://t.me/brothers_territory")
                    
                 ]
@@ -277,7 +277,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "😜Yav song play madli chinna😍😍**"
+                "😜 ಯಾವ ಹಾಡು ಪ್ಲೇ ಮಾಡಲಿ ಚಿನ್ನಾ 😍😍**"
             )
         await lel.edit("🔎")
         query = message.text.split(None, 1)[1]
@@ -304,7 +304,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🌸°💔 chinna song check madi inond sari play maadu 💔**"
+                "**🌸°💔 ಚಿನ್ನಾ ಸಾಂಗ್ ಚೆಕ್ ಮಾಡಿ ಮತ್ತೊಮ್ಮೆ ಪ್ಲೇ ಮಾಡು 💔**"
             )
             print(str(e))
             return
@@ -313,21 +313,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦🤙",
+                            text="ಮಾಯಾಲೋಕ🤙",
                             url=f"https://t.me/agora_talks")
                ],
                [
                     InlineKeyboardButton(
-                            text="🕉️𝗖𝗥𝗘𝗔𝗧𝗢𝗥🕉️",
+                            text="🕉️ ಶ್ರೀ ಮತ್ತು ಶ್ರಿಮತಿ ಅಘೋರ 🕉️",
                             url=f"https://t.me/mrs_agora"),
                             
                     InlineKeyboardButton(
-                            text="𝗝𝗢𝗜𝗡💜",
+                            text="ಸಾಮ್ರಾಜ್ಯ💜",
                             url=f"https://t.me/agoraempire")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧💪",
+                            text="ಅಡ್ಡ💪",
                             url=f"https://t.me/BROTHERS_TERRITORY")
                    
                 ]
