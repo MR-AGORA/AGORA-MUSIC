@@ -135,7 +135,7 @@ async def play(_, message: Message):
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>Hey {user.first_name}, ಅಸಿಸ್ಟಂಟ್ ನಾ add ಮಾಡು ಚಿನ್ನಾ :- [ಅಸಿಸ್ಟಂಟ್](https://t.me/agora_was_bot) ❤️🥀 </i>")
+            f"<i>Hey {user.first_name}, ಅಸಿಸ್ಟಂಟ್ ನಾ add ಮಾಡು ಚಿನ್ನಾ :- [ಅಸಿಸ್ಟಂಟ್](https://t.me/team_agora_robot) ❤️🥀 </i>")
         return
     
     audio = (
