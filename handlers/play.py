@@ -177,7 +177,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="💪 ಅಡ್ಡ 💪",
-                            url=f"https://t.me/Brothers_territory")
+                            url=f"https://t.me/team_agora")
                    
                 ]
             ]
@@ -230,7 +230,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="💪 ಅಡ್ಡ 💪",
-                            url=f"https://t.me/brothers_territory")
+                            url=f"https://t.me/team_agora")
                    
                 ]
             ]
@@ -260,7 +260,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="💪 ಅಡ್ಡ 💪",
-                            url=f"https://t.me/brothers_territory")
+                            url=f"https://t.me/team_agora")
                    
                 ]
             ]
@@ -328,7 +328,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="💪 ಅಡ್ 💪",
-                            url=f"https://t.me/BROTHERS_TERRITORY")
+                            url=f"https://t.me/team_agora")
                    
                 ]
             ]
