@@ -98,7 +98,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 ** ಹೇ ತಾಳು ಚಿನ್ನಾ ಹಾಡು ಪ್ಲೇ ಮಾಡ್ತೀನಿ..**")
+    lel = await message.reply("🔎 ** Hey Buddy tell me which song you wanna listen..**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -118,24 +118,24 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "😒ಮೊದ್ಲು ಅಡ್ಮಿನ್ ಕೊಡು ಚಿನ್ನಾ😞")
+                        "😒Hey Promote me as admin dude😞")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**ಒಯ್ ಚಿನ್ನಾ ನಾನ್ ಇಲ್ ಇದೀನಿ ನೋಡು**")
+                        message.chat.id, "**hoyyy i m here look at me**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b> ಅಯ್ಯೋ ಚಿನ್ನಾ ನನ್ ಮುಸಿಕ್ ಅಸಿಸ್ಟಂಟ್ ನಿನ್ ಗ್ರೂಪ್ ಅಲ್ಲಿ ಇಲ್ಲ ಅವಂಗೆ add ಮಾಡಿ ಅಡ್ಮಿನ್ ಕೊಡು , ಮತ್ತೆ ನನ್ ಓನರ್ ಗೆ ಕೇಳು 💞 :- ✨ [ಓನರ್](https://t.me/mr_agora) ❤️🥀 :) ")
+                        f"<b> ayyio their is no assistant in your group add my assisatnt otherwise ask to my owner 💞 :- ✨ [AGORA](https://t.me/mr_agora) ❤️🥀 :) ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>Hey {user.first_name}, ಅಸಿಸ್ಟಂಟ್ ನಾ add ಮಾಡು ಚಿನ್ನಾ :- [ಅಸಿಸ್ಟಂಟ್](https://t.me/team_agora_robot) ❤️🥀 </i>")
+            f"<i>Hey {user.first_name}, Add the assistant to the group:- [Assistant](https://t.me/team_agora_assisatant) ❤️🥀 </i>")
         return
     
     audio = (
@@ -148,12 +148,12 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**❰ ° ಚಿನ್ನಾ ಸಾಂಗ್ ದು 🎸 ° ❱ ಟೈಂ ಜಾಸ್ತಿ ಇದೆ {DURATION_LIMIT} ಅಲೋ ಅಗ್ತಿಲ್ಲಾ ಚಿನ್ನಾ ▶ ❤️🥀**"
+                f"**❰ ° ufff song duration is too high🎸 ° ❱ better select another song{DURATION_LIMIT} ▶ ❤️🥀**"
             )
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/710838c4451e8f5f08c91.jpg"
+        thumb_name = "https://te.legra.ph/file/2add091f8824a47e82c98.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -162,21 +162,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🤙 ಮಾಯ ಲೋಕ 🤙",
+                            text="💖 AGORA TALKS 🤙",
                             url=f"https://t.me/agora_talks")
                ],
                [
                     InlineKeyboardButton(
-                            text="🕉️ ಶ್ರೀ ಮತ್ತು ಶ್ರಿಮತಿ ಅಘೋರ 🕉️",
+                            text="🕉️ OWNER 🕉️",
                             url=f"https://t.me/mr_agora"),
                             
                     InlineKeyboardButton(
-                            text="💜 ಸಾಮ್ರಾಜ್ಯ 💜",
+                            text="💜 EMPIRE 💜",
                             url=f"https://t.me/agoraempire")
                ],
                [
                         InlineKeyboardButton(
-                            text="💪 ಅಡ್ಡ 💪",
+                            text="💪 TERRITORY 💪",
                             url=f"https://t.me/team_agora")
                    
                 ]
@@ -215,21 +215,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🤙 ಮಾಯ ಲೋಕ 🤙",
+                            text="🤙 AGORA TALK 🤙",
                             url=f"https://t.me/agora_talks")
                ],
                [
                     InlineKeyboardButton(
-                            text="🕉️ ಶ್ರೀ ಮತ್ತು ಶ್ರಿಮತಿ ಅಘೋರ 🕉️",
+                            text="🕉️ OWNER 🕉️",
                             url=f"https://t.me/mr_agora"),
                             
                     InlineKeyboardButton(
-                            text="💜 ಸಾಮ್ರಾಜ್ಯ 💜",
+                            text="💜 EMPIRE 💜",
                             url=f"https://t.me/agoraempire")
                ],
                [
                         InlineKeyboardButton(
-                            text="💪 ಅಡ್ಡ 💪",
+                            text="💪 TERRITORY 💪",
                             url=f"https://t.me/team_agora")
                    
                 ]
@@ -238,28 +238,28 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/710838c4451e8f5f08c91.jpg"
+            thumb_name = "https://te.legra.ph/file/2add091f8824a47e82c98.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                            text="🤙 ಮಾಯಾಲೋಕ 🤙",
+                            text="🤙 AGORA TALK 🤙",
                             url=f"https://t.me/agorA_TALKS")
                ],
                [
                     InlineKeyboardButton(
-                            text="🕉️ ಶ್ರೀ ಅಘೋರ 🕉️",
+                            text="🕉️ OWNER 🕉️",
                             url=f"https://t.me/MR_AGORA"),
                             
                     InlineKeyboardButton(
-                            text="💜 ಸಾಮ್ರಾಜ್ಯ 💜",
+                            text="💜 EMPIRE 💜",
                             url=f"https://t.me/agoraEMPIRE")
                ],
                [
                         InlineKeyboardButton(
-                            text="💪 ಅಡ್ಡ 💪",
+                            text="💪 TERRITORY 💪",
                             url=f"https://t.me/team_agora")
                    
                 ]
@@ -277,7 +277,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "😜 ಯಾವ ಹಾಡು ಪ್ಲೇ ಮಾಡಲಿ ಚಿನ್ನಾ 😍😍**"
+                "😍😍 WHICH SONG SHOULD I PLAY DARLING 🤪🥰😘**"
             )
         await lel.edit("🔎")
         query = message.text.split(None, 1)[1]
@@ -304,7 +304,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🌸°💔 ಚಿನ್ನಾ ಸಾಂಗ್ ಚೆಕ್ ಮಾಡಿ ಮತ್ತೊಮ್ಮೆ ಪ್ಲೇ ಮಾಡು 💔**"
+                "**🌸°😑 Check the song and play again darling 🤪**"
             )
             print(str(e))
             return
@@ -313,21 +313,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🤙 ಮಾಯಾಲೋಕ 🤙",
+                            text="🤙 AGORA TALK 🤙",
                             url=f"https://t.me/agora_talks")
                ],
                [
                     InlineKeyboardButton(
-                            text="🕉️ ಶ್ರೀ ಅಘೋರ 🕉️",
+                            text="🕉️ OWNER 🕉️",
                             url=f"https://t.me/mr_agora"),
                             
                     InlineKeyboardButton(
-                            text="💜 ಸಾಮ್ರಾಜ್ಯ💜",
+                            text="💜 EMPIRE 💜",
                             url=f"https://t.me/agoraempire")
                ],
                [
                         InlineKeyboardButton(
-                            text="💪 ಅಡ್ 💪",
+                            text="💪 TERRITORY 💪",
                             url=f"https://t.me/team_agora")
                    
                 ]
@@ -350,7 +350,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="****💪 ಅಘೋರ ಸರ್ವರ್ ಇಂದ ಹಾಡು ಪ್ಲೇ ಆಗ್ತಾ ಇದೆ💫🤟** {}**".format(position),
+            caption="****💪 THE SONG IS PLAYING FROM AGORA SERVER , ENJOY WITH @AGORA_ROBOT💫🤟** {}**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -367,7 +367,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💪 ಅಘೋರ ಸರ್ವರ್ ಇಂದ ಹಾಡು ಪ್ಲೇ ಆಗ್ತಾ ಇದೆ`{}`...**".format(
+            caption="**** Song is playing with Agora server enjoy by using @agora_robot`{}`...**".format(
         message.chat.title
         ), )
 
