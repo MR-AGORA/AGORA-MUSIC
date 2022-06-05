@@ -22,7 +22,7 @@ def song(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply("ಅಘೋರ ಸರ್ವರ್ 💫 ಇಂದ ಹಾಡು 🎧 ಹುಡ್ಕಾತೆನ್ ತಾಡ್ಕೊ 🌎...")
+    m = message.reply("SEARCHING SONG 💫 BY AGORA SERVER 🎧 STAY TUNED 🌎...")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -41,11 +41,11 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "ಹಾಡು 🥀 ಇಲ್ಲ  😔 ಅನಾಸ್ಥೆತ."
+            "PLEASE 🥀 CHECK 😔 SONG ."
         )
         print(str(e))
         return
-    m.edit("ಅಘೋರ ಸರ್ವರ್ ✨ ಇಂದ ಹಾಡು 🎸 ಡೌನ್ಲೋಡ್ 🥀 ಅಗತೈತ್🌎...")
+    m.edit(" FRON AGORA SERVER✨ 🎸 SONG IS 🥀 DOWNLOADING 🌎...")
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
@@ -59,7 +59,7 @@ def song(client, message):
         message.reply_audio(audio_file, caption=rep, thumb=thumb_name, parse_mode='md', title=title, duration=dur)
         m.delete()
     except Exception as e:
-        m.edit("**ಅವನೌನ್ ಗ್ರೂಪ್ ಸರ್ವರ್ ದಾಗ ಪ್ರಾಬ್ಲೆಮ್ ಐತ ಓನರ್ g ಕರಿ ಮತ್ ನಮ್ ಬೋಟ್ ಇನ್ವರ್ ಗ invite ಮಾಡ ❌ Bot Owner 🥀 [Agora](https://t.me/mr_agora) ❤️**")
+        m.edit("** aree group server is low so bring the group owner and bot owner to fix the error ❌ Bot Owner 🥀 [Agora](https://t.me/mr_agora) ❤️**")
         print(e)
 
     try:
