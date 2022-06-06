@@ -1,8 +1,8 @@
 {
-  "name": "AGORA SONG",
+  "name": "AGORA MUSIC",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/MR-KANNADIGA/AGORA-SONG",
+  "repository": "https://github.com/MR-AGORA/AGORA-SONG",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
