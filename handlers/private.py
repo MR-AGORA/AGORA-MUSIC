@@ -22,7 +22,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𝐀𝐆𝐎𝐑𝐀 𝐁𝐎𝐓𝐒 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url=f"https://t.me/BROTHERS_TERRITORY")
+                        "𝐀𝐆𝐎𝐑𝐀 𝐁𝐎𝐓𝐒 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url=f"https://t.me/AGORA_MUSICWORLD")
                 ]
                 
            ]
