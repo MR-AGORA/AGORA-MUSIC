@@ -162,8 +162,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="💖 AGORA TALKS 🤙",
-                            url=f"https://t.me/agora_talks")
+                            text="💖 AGORA BOTS 🤙",
+                            url=f"https://t.me/agora_robots")
                ],
                [
                     InlineKeyboardButton(
@@ -215,8 +215,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🤙 AGORA TALK 🤙",
-                            url=f"https://t.me/agora_talks")
+                            text="🤙 AGORA BOTS 🤙",
+                            url=f"https://t.me/agora_robots")
                ],
                [
                     InlineKeyboardButton(
@@ -245,8 +245,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🤙 AGORA TALK 🤙",
-                            url=f"https://t.me/agorA_TALKS")
+                            text="🤙 AGORA BOTS 🤙",
+                            url=f"https://t.me/agorA_ROBOTS")
                ],
                [
                     InlineKeyboardButton(
@@ -313,8 +313,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🤙 AGORA TALK 🤙",
-                            url=f"https://t.me/agora_talks")
+                            text="🤙 AGORA BOTS 🤙",
+                            url=f"https://t.me/agora_ROBOTS")
                ],
                [
                     InlineKeyboardButton(
