@@ -17,12 +17,12 @@ async def start_(client: Client, message: Message):
 𝐓𝐄𝐑𝐑𝐈𝐓𝐎𝐑𝐘:- [𝐓𝐄𝐀𝐌 𝐀𝐆𝐎𝐑𝐀](https://t.me/team_agora)
 𝐁𝐎𝐓𝐒 𝐄𝐌𝐏𝐈𝐑𝐄 :- [𝐀𝐆𝐎𝐑𝐀 𝐁𝐎𝐓𝐒](https://t.me/AGORa_ROBOTS)
 
- 𝐅𝐈𝐑𝐒𝐓 𝐉𝐎𝐈𝐍 𝐓𝐇𝐈𝐒 𝐆𝐑𝐎𝐔𝐏 @TEAM_AGORA 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐄 𝐁𝐎𝐓 𝐀𝐍𝐃 𝐇𝐄𝐑𝐄 𝐈𝐒 𝐓𝐇𝐄 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄 𝐎𝐅 [𝐎𝐖𝐍𝐄𝐑](https://t.me/mr_agora)**""",
+ 𝐅𝐈𝐑𝐒𝐓 𝐉𝐎𝐈𝐍 𝐓𝐇𝐈𝐒 𝐆𝐑𝐎𝐔𝐏 [𝐓𝐄𝐀𝐌 𝐀𝐆𝐎𝐑𝐀](t.me/team_agora) 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐄 𝐁𝐎𝐓 𝐀𝐍𝐃 𝐇𝐄𝐑𝐄 𝐈𝐒 𝐓𝐇𝐄 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄 𝐎𝐅 [𝐎𝐖𝐍𝐄𝐑](https://t.me/mr_agora)**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝐀𝐆𝐎𝐑𝐀 𝐁𝐎𝐓𝐒 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url=f"https://t.me/AGORA_MUSICWORLD")
+                        "𝐂𝐋𝐔𝐁 𝐇𝐎𝐔𝐒𝐄 𝐎𝐖𝐍𝐄𝐑", url=f"https://www.clubhouse.com/@mr_agoramahrshi")
                 ]
                 
            ]
