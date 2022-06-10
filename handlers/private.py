@@ -40,7 +40,6 @@ async def help(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "𝐑𝐄𝐏𝐎", url=f"https://github.com/MR-AGORA")
-                    ")
                 ]
             ]
         ),
